@@ -10,9 +10,14 @@ html {
 body {
   /* font-family: "Poppains", sans-serif; */
 }
+
+section {
+  padding: 2rem 0;
+}
 .title {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 2rem 0 3rem 0;
 }
 .sub-title {
   font-size: 2rem;
@@ -26,46 +31,101 @@ body {
 .btn {
   border-radius: 2rem;
 }
-.btn-signin {
-}
 
 /*------------- Hero Section -----------------*/
 #hero {
-  height: 65vh;
   background-color: #f0fff0;
-  margin-bottom: 4rem;
+}
+.hero {
+  height: 60vh;
 }
 
-.hero {
-}
-.hero-main {
+.hero-right img {
+  width: 100%;
 }
 .hero-content {
+  padding: 0 2rem 1rem 0;
 }
 .hero-subheading {
+  color: #fd511a;
 }
 
 .hero-heading {
+  font-size: 3rem;
+  font-weight: 900;
 }
+
+.hero-heading-colored {
+  color: #21b573;
+}
+
 .hero-subtext {
-}
-.hero-picture img {
-  width: 100%;
+  color: #6c6b6b;
 }
 
 /* features*/
 #features .card {
-  height: 270px;
-  margin-bottom: 2rem;
-
+  height: 260px;
+  margin: 3rem 0.5rem;
   border: none;
-  box-shadow: 4px 4px 10px black;
+}
+
+#features .card:hover {
+  cursor: pointer;
+}
+
+#features .card-2 {
+  box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.37);
 }
 #features img {
   width: 70px;
 }
 
-/* .features-card {
-  height: 270;
-  padding: 3rem 3rem;
-} */
+/* Courses */
+#courses .card {
+  border-radius: 10px;
+  box-shadow: -8px -8px 20px #14141431, 8px 8px 20px rgba(0, 0, 0, 0.329);
+  border: 0;
+}
+
+#courses .card img:hover {
+  transform: scale(0.99);
+}
+#courses .card .card-footer {
+  border: 0;
+}
+
+/*  testimonial */
+.testimonial {
+  padding: 1rem 1rem;
+  margin-bottom: 3rem;
+}
+.testimonial img {
+  padding-left: 3rem;
+  width: 40%;
+}
+
+.box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.testimonial-text {
+  padding: 1rem 3rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #282531;
+  padding-bottom: -2rem;
+}
+
+.footer {
+  color: white;
+  padding: 3rem 3rem 0 3rem;
+}
+
+.footer li {
+  list-style: none;
+}
