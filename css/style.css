@@ -1,0 +1,71 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+}
+
+body {
+  /* font-family: "Poppains", sans-serif; */
+}
+.title {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.sub-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-item {
+  font-weight: 700;
+  margin-left: 1rem;
+  padding: 0.5rem 1.2rem;
+}
+.btn {
+  border-radius: 2rem;
+}
+.btn-signin {
+}
+
+/*------------- Hero Section -----------------*/
+#hero {
+  height: 65vh;
+  background-color: #f0fff0;
+  margin-bottom: 4rem;
+}
+
+.hero {
+}
+.hero-main {
+}
+.hero-content {
+}
+.hero-subheading {
+}
+
+.hero-heading {
+}
+.hero-subtext {
+}
+.hero-picture img {
+  width: 100%;
+}
+
+/* features*/
+#features .card {
+  height: 270px;
+  margin-bottom: 2rem;
+
+  border: none;
+  box-shadow: 4px 4px 10px black;
+}
+#features img {
+  width: 70px;
+}
+
+/* .features-card {
+  height: 270;
+  padding: 3rem 3rem;
+} */
